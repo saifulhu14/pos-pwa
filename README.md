@@ -50,4 +50,21 @@ npm run dev
 php artisan serve
 
 
+============== LANGKAH-LANGKAH ===========
+1. Routing Laravel
+2. Autentikasi: Sanctum
+    - Install Sanctum
+    - composer require laravel/sanctum
+    - php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+    - php artisan migrate
+3. Auth Controller
+4. Migration: Toko, Produk, Transaksi
+5. dawdawd
+6. dawdawd
+7. dawdadawd
+8. dawdawd
+  
+
+
+
 
