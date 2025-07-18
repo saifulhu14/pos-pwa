@@ -19,3 +19,16 @@ pos-pwa/
 │   └── service-worker.js
 ├── webpack.mix.js         # Laravel Mix config
 └── .env.example
+
+
+| Komponen    | Teknologi                                                |
+| ----------- | -------------------------------------------------------- |
+| Auth        | Laravel Auth (classic) + Vue                             |
+| UI          | Bootstrap 4 (bisa diganti ke Tailwind)                   |
+| Frontend    | Vue 2 (default Laravel 8 + Mix)                          |
+| PWA         | Manual Service Worker + Manifest                         |
+| Data        | AJAX fetch / Axios ke endpoint Laravel API               |
+| Multi-store | via `store_id` di model User & Product                   |
+| Dual Screen | Vue Router route: `/kasir` & `/customer-view/:sessionId` |
+
+
