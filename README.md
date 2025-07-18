@@ -32,3 +32,22 @@ pos-pwa/
 | Dual Screen | Vue Router route: `/kasir` & `/customer-view/:sessionId` |
 
 
+Sambil saya generate semua file, kamu bisa siapkan:
+git clone https://github.com/saifulhu14/pos-pwa.git
+cd pos-pwa
+
+# Laravel
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+
+# Frontend
+npm install
+npm run dev
+
+# Jalankan
+php artisan serve
+
+
+
